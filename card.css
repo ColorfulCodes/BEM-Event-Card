@@ -1,0 +1,59 @@
+.card {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #000000b3;
+  text-align: center;
+  /* transition: 0.3s; */
+}
+
+.card-image {
+  height: 350px;
+  overflow: hidden;
+}
+
+.card-header {
+  color: white;
+  background-color: #58CCED;
+}
+
+.card-body {
+  text-align: left;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* we set margin to 0 because h1 naturally has it assigned and so the card background color
+  is interfering with the card header background. */
+  margin: 0;
+}
+
+footer {
+  color: white;
+  background-color: #254855;
+  /* added clear both to get out of way of icon above */
+  clear: both;
+}
+
+footer p {
+  display: inline-block;
+}
+
+footer a {
+  color: #fff;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+}
+
+.logo img {
+  width: 50%;
+  padding-top: 10px;
+  padding-top: 6px;
+}
