@@ -6,28 +6,32 @@
     <title>Given card to recreate</title>
     <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
   </head>
 <!-- if script tag goes in body it has to be in the bottom, of the body. -->
   <body>
     <div class="card">
-      <div class="card-image">
-        <img src="image.jpeg" alt="Social Gathering">
+      <!-- Div card image should be below card header -->
+      <!-- Use section & article instead of div -->
+      <!-- There should only be one h1 on a page -->
+      <header class="card__header">
+        <!-- Don't capitalize all h1 -->
+        <h1 class="card__header-text">Phonic Uproar</h1>
+        <img class="card__image" src="image.jpeg" alt="Social Gathering">
+      </header>
+
+      <div class="card__logo-container">
+        <img src="logo.png" alt="Troy Main Street logo" class="card__logo">
       </div>
-      <div class="card-header">
-        <h1>PHONIC UPROAR</h1>
-      </div>
-      <div class="logo">
-        <img src="logo.png" alt="Troy Main Street logo">
-      </div>
-      <div class="card-body">
+      <div class="card__body">
         <p>Friday, July 27 @ 7:30 pm</p>
         <p>Prouty Plaza</p>
         <p>Downtown Troy, Ohio</p>
       </div>
-      <footer>
-        <p>TroyMainStreet.org</p>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-facebook-official"></a>
+      <footer class="card__footer">
+        <a href="#" class="card__link">TroyMainStreet.org</a>
+        <a href="#" class="fa fa-twitter card__icon"></a>
+        <a href="#" class="fa fa-facebook-official card__icon"></a>
       </footer>
   </div>
 </body>

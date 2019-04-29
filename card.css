@@ -10,49 +10,55 @@
   /* transition: 0.3s; */
 }
 
-.card-image {
-  height: 350px;
+.card__image {
+  width: 100%;
   overflow: hidden;
 }
 
-.card-header {
+.card__header {
   color: white;
-  background-color: #58CCED;
 }
 
-.card-body {
+.card__body {
   text-align: left;
+  font-family: 'Cinzel', serif;
 }
 
-h1 {
+.card__header-text {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: 'Cinzel', serif;
+  background-color: #58CCED;
   /* we set margin to 0 because h1 naturally has it assigned and so the card background color
   is interfering with the card header background. */
   margin: 0;
 }
 
-footer {
+.card__footer {
   color: white;
   background-color: #254855;
   /* added clear both to get out of way of icon above */
   clear: both;
 }
 
-footer p {
+.card__link {
   display: inline-block;
+  color: white;
+  font-size: large;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
-footer a {
+.card__icon {
   color: #fff;
 }
 
-.logo {
+.card__logo-container {
   float: left;
   width: 30%;
 }
 
-.logo img {
+.card__logo {
   width: 50%;
   padding-top: 10px;
   padding-top: 6px;
